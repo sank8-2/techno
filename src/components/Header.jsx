@@ -38,7 +38,7 @@ const Header = () => {
         <DrawerOverlay>
           <DrawerContent>
             <DrawerCloseButton />
-            <DrawerHeader>TECHNOMANIA 2k23❤️</DrawerHeader>
+            <DrawerHeader>TECHNOMANIA 2k24❤️</DrawerHeader>
             <DrawerBody>
             <VStack alignItems={"flex-start"}>
                 <Button onClick={onClose} variant={"ghost"} colorScheme={"purple"}>
