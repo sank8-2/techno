@@ -1,6 +1,7 @@
 import dumb from "./assets/dumb.webp";
 import tresure from "./assets/tresure.jpg";
-import madads from "./assets/madads.jpg";
+import rubix from "./assets/rubix.jpg"
+import meme from "./assets/madads.jpg";
 import photography from "./assets/photography.avif";
 
 const nontech = [
