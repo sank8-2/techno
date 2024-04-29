@@ -137,7 +137,7 @@ const nontech = [
     coordinators: [
       { name: "Priyanka", phno: "8904171760" },
       { name: "Supriya", phno: "8867292040" },
-      { name: "Deeksha", phno: "8904012948" },
+      { name: "Supreeth", phno: "9353782856" },
     ],
     timing: "10:00am - 10:30am",
     date: "03/05/2024",
