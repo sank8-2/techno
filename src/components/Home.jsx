@@ -1,6 +1,5 @@
 import {
   Box,
-  Button,
   Heading,
   Image,
   Stack,
@@ -14,9 +13,9 @@ import c3 from "../assets/c3.jpg";
 import c4 from "../assets/c4.jpg";
 import vg from "../assets/vg.png";
 import bg from "../assets/b5.jpg";
-import vg1 from "../assets/vg1.png";
+// import vg1 from "../assets/vg1.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import {useEffect} from 'react';
 
 const Home = () => {

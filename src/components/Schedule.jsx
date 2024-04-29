@@ -1,31 +1,20 @@
 import React from "react";
 import {
-  Card,
   Container,
   Heading,
   Stack,
-  Image,
-  VStack,
-  Text,
-  UnorderedList,
-  ListItem,
-  Box,
   Table,
   Thead,
   Tbody,
   Th,
   Td,
   Tr,
-  CardBody,
-  CardFooter,
-  Button,
-  Divider,
 } from "@chakra-ui/react";
 
 import tech from "../techEventInfo";
 import nontech from "../nonTechEventInfo";
 
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import { useEffect } from "react";
 
