@@ -42,7 +42,7 @@ const Events = () => {
                 <Stack mt="6" spacing="3" textAlign={"center"}>
                   <Heading size="md">{tech.title}</Heading>
                   <Text>{tech.desc}</Text>
-                  <Text color="yellow" fontSize="2xl">
+                  <Text color="black" fontSize="2xl">
                     {tech.timing} <br/> ({tech.date})
                   </Text>
                 </Stack>
