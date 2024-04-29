@@ -11,8 +11,7 @@ import {
   Tr,
 } from "@chakra-ui/react";
 
-import tech from "../techEventInfo";
-import nontech from "../nonTechEventInfo";
+import all from "../allEvents";
 
 // import { Link } from "react-router-dom";
 
@@ -55,7 +54,7 @@ const Schedule = () => {
             </Thead>
 
             <Tbody>
-              {tech.map((e) => {
+              {all.map((e) => {
                 return (
                   <Tr>
                     <Td textAlign={"center"}>{e.title}</Td>
@@ -64,15 +63,7 @@ const Schedule = () => {
                   </Tr>
                 );
               })}
-              {nontech.map((e) => {
-                return (
-                  <Tr>
-                    <Td textAlign={"center"}>{e.title}</Td>
-                    <Td textAlign={"center"}>{e.date}</Td>
-                    <Td textAlign={"center"}>{e.timing}</Td>
-                  </Tr>
-                );
-              })}
+              
             </Tbody>
           </Table>
         </Stack>
