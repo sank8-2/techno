@@ -29,11 +29,6 @@ import { Link } from "react-router-dom";
 
 import { useEffect } from "react";
 
-let event = {};
-let eventt = {};
-event = tech;
-event += nontech;
-
 const Schedule = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -70,17 +65,26 @@ const Schedule = () => {
               </Th>
             </Thead>
 
-            {event.map((e) => {
-              return (
-                <Tbody>
+            <Tbody>
+              {tech.map((e) => {
+                return (
                   <Tr>
                     <Td textAlign={"center"}>{e.title}</Td>
                     <Td textAlign={"center"}>{e.date}</Td>
                     <Td textAlign={"center"}>{e.timing}</Td>
                   </Tr>
-                </Tbody>
-              );
-            })}
+                );
+              })}
+              {nontech.map((e) => {
+                return (
+                  <Tr>
+                    <Td textAlign={"center"}>{e.title}</Td>
+                    <Td textAlign={"center"}>{e.date}</Td>
+                    <Td textAlign={"center"}>{e.timing}</Td>
+                  </Tr>
+                );
+              })}
+            </Tbody>
           </Table>
         </Stack>
       </Container>

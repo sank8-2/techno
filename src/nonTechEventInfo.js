@@ -33,7 +33,7 @@ const nontech = [
     ],
     timing: "11:00am - 01:00pm",
     date: "02/05/2024",
-    link: "https://forms.gle/owBbwH1iKYyD69CDA",
+    link: "https://forms.gle/vTE42Fh85Za8Uaef7",
   },
   {
     id: "11",
@@ -60,7 +60,7 @@ const nontech = [
     ],
     timing: "4:00pm - 5:30pm",
     date: "02/05/2024",
-    link: "https://forms.gle/muZ1pBZT2EV9y2c56",
+    link: "https://forms.gle/y1AwAtsVuzJDfCWt9",
   },
   {
     id: "12",
@@ -78,7 +78,7 @@ const nontech = [
     ],
     timing: "9:00am - 2:00pm",
     date: "03/05/2024",
-    link: "https://forms.gle/MqeCboKbuQ7pCNWb8",
+    link: "https://forms.gle/oES9r5YdVo7dpFmy5",
   },
   {
     id: "13",
@@ -116,7 +116,7 @@ const nontech = [
     ],
     timing: "9:00am - 10:00am",
     date: "03/05/2024",
-    link: "https://forms.gle/MqeCboKbuQ7pCNWb8",
+    link: "https://forms.gle/NDmvGRTMGkZYhUSR7",
   },
   {
     id: "14",
@@ -134,7 +134,7 @@ const nontech = [
     ],
     timing: "10:00am - 10:30am",
     date: "03/05/2024",
-    link: "https://forms.gle/MqeCboKbuQ7pCNWb8",
+    link: "https://forms.gle/45xaEo2HkUBLKWwMA",
   },
 
 ];

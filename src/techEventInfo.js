@@ -23,7 +23,7 @@ const tech = [
     ],
     timing: "2:00pm - 3:00pm",
     date: "02/05/2024",
-    link: "https://forms.gle/fKdjaDdQtoFS228g7",
+    link: "https://forms.gle/ViWRWYYBWtdxbE987",
   },
   {
     id: "2",
@@ -45,7 +45,7 @@ const tech = [
     ],
     timing: "3:00pm - 3:30pm",
     date: "02/05/2024",
-    link: "https://forms.gle/yMpEYN6BeaXAEpcG7",
+    link: "https://forms.gle/JPoaL5hhmkJXwwnB9",
   },
   {
     id: "3",
@@ -66,7 +66,7 @@ const tech = [
     ],
     timing: "10:30am - 11:00am",
     date: "03/05/2024",
-    link: "https://forms.gle/gdj55hjTtBKedjL3A",
+    link: "https://forms.gle/8W3A56bjGpx1bDnw5",
   },
   {
     id: "4",
@@ -86,7 +86,7 @@ const tech = [
     ],
     timing: "1:30pm - 3:00pm",
     date: "03/05/2024",
-    link: "https://forms.gle/VrCVYxTNisdNCUvZA",
+    link: "https://www.hackerrank.com/technomania-2023-24",
   },
 ];
 
