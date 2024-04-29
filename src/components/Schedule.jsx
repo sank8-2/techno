@@ -24,7 +24,7 @@ const Schedule = () => {
 
   return (
     <>
-      <Container maxW={["80vw", "70vw"]}>
+      <Container maxW={["90vw", "100vw"]}>
         <Heading
           borderBottom={"10px double red"}
           borderRadius={"2xl"}
@@ -32,12 +32,12 @@ const Schedule = () => {
           m={5}
           p={5}
         >
-          Schedule
+          Event Schedule
         </Heading>
         <Stack marginBottom={10} alignItems="center">
           <Table
             border={"2px"}
-            width={["100%", "50%"]}
+            width={["100%", "80%"]}
             variant="striped"
             colorScheme="blackAlpha"
           >
@@ -51,19 +51,32 @@ const Schedule = () => {
               <Th color={"red.400"} textAlign={"center"}>
                 Timings
               </Th>
+              <Th color={"red.400"} textAlign={"center"}>
+                Event Hall
+              </Th>
             </Thead>
 
             <Tbody>
               {all.map((e) => {
-                return (
-                  <Tr>
-                    <Td textAlign={"center"}>{e.title}</Td>
-                    <Td textAlign={"center"}>{e.date}</Td>
-                    <Td textAlign={"center"}>{e.timing}</Td>
-                  </Tr>
-                );
+                if (e.bold == "true")
+                  return (
+                    <Tr fontWeight={"bold"}>
+                      <Td textAlign={"center"}>{e.title}</Td>
+                      <Td textAlign={"center"}>{e.date}</Td>
+                      <Td textAlign={"center"}>{e.timing}</Td>
+                      <Td textAlign={"center"}>{e.room}</Td>
+                    </Tr>
+                  );
+                else
+                  return (
+                    <Tr>
+                      <Td textAlign={"center"}>{e.title}</Td>
+                      <Td textAlign={"center"}>{e.date}</Td>
+                      <Td textAlign={"center"}>{e.timing}</Td>
+                      <Td textAlign={"center"}>{e.room}</Td>
+                    </Tr>
+                  );
               })}
-              
             </Tbody>
           </Table>
         </Stack>
