@@ -114,7 +114,7 @@ const EventInfo = () => {
               </Table>
             </Stack>
             <Center>
-            <Button colorScheme={"red"} size={"lg"} w={["70%"]}>
+            <Button colorScheme={"red"} size={"lg"} w={["80%"]}>
               <Link to={e.link} target="_blank">
                 REGISTER NOW
               </Link>
