@@ -37,7 +37,7 @@ const Schedule = () => {
         <Stack marginBottom={10} alignItems="center">
           <Table
             border={"2px"}
-            width={["100%", "80%"]}
+            width={["100%", "60%"]}
             variant="striped"
             colorScheme="blackAlpha"
           >
