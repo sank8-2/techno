@@ -58,7 +58,7 @@ const Schedule = () => {
 
             <Tbody>
               {all.map((e) => {
-                if (e.bold == "true")
+                if (e.bold === "true")
                   return (
                     <Tr fontWeight={"bold"}>
                       <Td textAlign={"center"}>{e.title}</Td>
