@@ -98,7 +98,7 @@ const EventInfo = () => {
                     Name
                   </Th>
                   <Th color={"red.400"} textAlign={"center"}>
-                    Whatsapp Number
+                    Phone Number
                   </Th>
                 </Thead>
                 <Tbody>
@@ -114,7 +114,7 @@ const EventInfo = () => {
               </Table>
             </Stack>
             <Center>
-            <Button colorScheme={"red"} size={"lg"} w={["40%"]}>
+            <Button colorScheme={"red"} size={"lg"} w={["70%"]}>
               <Link to={e.link} target="_blank">
                 REGISTER NOW
               </Link>
