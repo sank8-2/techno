@@ -12,7 +12,6 @@ const Footer = () => {
       >
         <Text color={"whiteAlpha.900"}>Copyright &copy; 2024 - All Rights Reserved</Text>
         <Text color={"whiteAlpha.900"}>Technomania - 2k24 - CSE - UBDTCE</Text>
-        {/* <Text color={"whiteAlpha.900"} fontSize={10}>Designed by Suhas Mallya</Text> */}
       </VStack>
   )
 }
