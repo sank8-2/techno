@@ -56,13 +56,7 @@ const nontech = [
 
     ],
     coordinators: [
-      { name: "Shamanth", phno: "" },
-      // { name: "Vinutha", phno: "8088343206" },
-      // { name: "Ananya", phno: "8073600794" },
-      // { name: "Sindhu", phno: "6366808376" },
-      // { name: "Syeda Heena Kousar", phno: "8431969273" },
-      // { name: "Santhosh", phno: "7022590204" },
-      // { name: "Yuvaraj", phno: "9945293303" },
+      { name: "Shamanth", phno: "9380014185" },
     ],
     timing: "4:00pm - 5:30pm",
     date: "02/05/2024",
@@ -71,7 +65,7 @@ const nontech = [
   {
     id: "12",
     title: "Photography",
-    desc: "Photography Competitions create opportunities for aspiring young photographers to exhibit their skills to the world.",
+    desc: "Unleash your inner shutterbug with our Photography Game! Embark on a visual adventure as you explore stunning landscapes, capture fleeting moments, and unleash your creativity behind the lens.",
     image: photography,
     rules: [
       "Timings - 9 am to 2 pm",
@@ -81,7 +75,6 @@ const nontech = [
     ],
     coordinators: [
       { name: "Shamanth", phno: "9380014185" },
-      // { name: "Suhas Mallya", phno: "7337671743" },
     ],
     timing: "9:00am - 2:00pm",
     date: "03/05/2024",
@@ -90,7 +83,7 @@ const nontech = [
   {
     id: "13",
     title: "Memes-ahari",
-    desc: "photography competitions create opportunities for aspiring young photographers to exhibit their skills to the world.",
+    desc: "Get ready to LOL with our Memes Game! Dive into a world of humor and wit as you compete to match the funniest memes with hilarious prompts. Challenge friends or test your meme mastery solo.",
     image: meme,
     rules: [
       "Team of 4 members",
@@ -127,8 +120,8 @@ const nontech = [
   },
   {
     id: "14",
-    title: "Rubix Cube",
-    desc: "photography competitions create opportunities for aspiring young photographers to exhibit their skills to the world.",
+    title: "Rubik's Cube",
+    desc: "Step into the mind-bending world of the Rubik's Cube Game! Solve the timeless puzzle of twisting colors as you race against the clock. It's a test of strategy, skill, and patience. Are you up for the challenge?.",
     image: rubix,
     rules: [
       "Participants must carry their own Rubix Cube.",
@@ -143,30 +136,7 @@ const nontech = [
     date: "03/05/2024",
     link: "https://forms.gle/MqeCboKbuQ7pCNWb8",
   },
-  // {
-  //   id: "13",
-  //   title: "MAD ADS",
-  //   desc: "MAD ADS is an 'Advertising Campaign Competition' for students to showcase their creative ideas and skills in different situations, products and services.",
-  //   image: madads,
-  //   rules: [
-  //     "Team Size : 5-8 members",
-  //     "Teams can be formed irrespective of their branch and year.",
-  //     "Topic will be given on the game day.",
-  //     "Time to discuss and to prepare : 10 mins",
-  //     "Time to act : 3 mins"
-  //   ],
-  //   coordinators: [
-  //     { name: "Madhura", phno: "8861105614" },
-  //     { name: "Manasa", phno: "8277595498" },
-  //     { name: "Tanuja", phno: "9148200525" },
-  //     { name: "Yashodha", phno: "7795029260" },
-  //     { name: "Rajath", phno: "7022204429" },
-  //     { name: "Vinayak", phno: "7337694002" },
-  //   ],
-  //   timing: "11:00am - 12:30pm",
-  //   date: "30/03/2023",
-  //   link: "https://forms.gle/mCM1HjWKgfygNn5c6",
-  // },
+
 ];
 
 export default nontech;

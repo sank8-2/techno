@@ -15,6 +15,7 @@ import {
   Td,
   Tr,
   Button,
+  Center,
 } from "@chakra-ui/react";
 import React from "react";
 import {useEffect} from 'react';
@@ -112,12 +113,13 @@ const EventInfo = () => {
                 </Tbody>
               </Table>
             </Stack>
-
-            <Button colorScheme={"red"} size={"lg"} w={["100%"]}>
+            <Center>
+            <Button colorScheme={"red"} size={"lg"} w={["40%"]}>
               <Link to={e.link} target="_blank">
                 REGISTER NOW
               </Link>
             </Button>
+            </Center>
           </Container>
         );
       })}
