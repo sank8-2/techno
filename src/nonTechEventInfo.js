@@ -71,7 +71,7 @@ const nontech = [
   {
     id: "12",
     title: "Photography",
-    desc: "photography competitions create opportunities for aspiring young photographers to exhibit their skills to the world.",
+    desc: "Photography Competitions create opportunities for aspiring young photographers to exhibit their skills to the world.",
     image: photography,
     rules: [
       "Timings - 9 am to 2 pm",
