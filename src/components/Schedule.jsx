@@ -24,7 +24,7 @@ const Schedule = () => {
 
   return (
     <>
-      <Container maxW={["90vw", "100vw"]}>
+      <Container maxW={["100vw", "100vw"]}>
         <Heading
           borderBottom={"10px double red"}
           borderRadius={"2xl"}
@@ -37,7 +37,9 @@ const Schedule = () => {
         <Stack marginBottom={10} alignItems="center">
           <Table
             border={"2px"}
-            width={["100%", "40%"]}
+            width={["100%", "100%","100%","100%"]}
+            fontSize={["2xs","xs","sm","md"]}
+            size={["2xs","xs","sm","md"]}
             variant="striped"
             colorScheme="blackAlpha"
           >
