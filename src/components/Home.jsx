@@ -72,7 +72,7 @@ const Home = () => {
           <Image src={vg} w={["full", "30vw"]} />
         </Box>
       </Stack>
-      <Stack
+      {/* <Stack
         w={"full"}
         h={"auto"}
         direction={["column", "row"]}
@@ -119,7 +119,7 @@ const Home = () => {
             <Link to="/events">Register</Link>
           </Button>
         </Box>
-      </Stack>
+      </Stack> */}
       <Stack
         w={"full"}
         h={"auto"}

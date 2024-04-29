@@ -45,6 +45,9 @@ const Header = () => {
                   <Link to={"/"} >Home</Link>
                 </Button>
                 <Button onClick={onClose} variant={"ghost"} colorScheme={"purple"}>
+                  <Link to={"/schedule"} >Schedule</Link>
+                </Button>
+                <Button onClick={onClose} variant={"ghost"} colorScheme={"purple"}>
                   <Link to={"/events"} >Events</Link>
                 </Button>
               </VStack>
