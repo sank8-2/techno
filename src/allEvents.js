@@ -79,7 +79,7 @@ const all = [
         bold: "true",
         title: "Prize Distribution",
         date: "03/05/2024",
-        timing: "02:00 PM onwards",
+        timing: "03:00 PM onwards",
         room: "R&D Lab"
     },
 ];
