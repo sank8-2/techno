@@ -16,14 +16,12 @@ import {
   Tr,
   Button,
   Center,
-  ListIcon,
 } from "@chakra-ui/react";
 import React from "react";
 import { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import tech from "../techEventInfo";
 import nontech from "../nonTechEventInfo";
-import blank from "../assets/blank.png";
 
 const EventInfo = () => {
   useEffect(() => {
