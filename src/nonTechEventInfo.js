@@ -15,15 +15,15 @@ const nontech = [
       "Actions showing letters, vulgarity not allowed",
       "Divided into 2 rounds",
       "First Round",
-      "WORD BEE",
+      ["WORD BEE",
       "Each team will get 5 seconds to name a film, and the next team must name the film of the trailing letter of the previous team.",
-      "Example Team 1 says – Tagaru, Team 2 must start with Ra -like Rustam",
+      "Example Team 1 says – Tagaru, Team 2 must start with Ra -like Rustam"],
       "Second Round",
-      "Intake of only 6 teams",
+      ["Intake of only 6 teams",
       "Three SubRounds – Easy, Medium, Hard",
       "Easy, Medium and Hard rounds are assigned with 3, 5 and 7 points respectively.",
       "The team with the highest number of points will be the winner.",
-      "Film names will be given by the coordinators on the spot."
+      "Film names will be given by the coordinators on the spot."]
     ],
     coordinators: [
       { name: "Shashikumar", phno: "9148746436" },
@@ -45,14 +45,14 @@ const nontech = [
       "Open for all",
       "Divided into 2 Rounds",
       "First Round",
-      "Written Round",
+      ["Written Round",
       "Only a single member of the team must participate in this round.",
       "Screening will be done based on Least Time and Completion of the Task.",
-      "Top 8 teams will proceed to the next round.",
+      "Top 8 teams will proceed to the next round."],
       "Second Round",
-      "Hunting the treasure.",
+      ["Hunting the treasure.",
       "Rules will be provided on the spot.",
-      "Don’t miss a single instruction. (Hint: It may help you later… 😉)"
+      "Don’t miss a single instruction. (Hint: It may help you later… 😉)"]
 
     ],
     coordinators: [
@@ -94,19 +94,19 @@ const nontech = [
       "Judgment criterion is based on MEME literature. ",
       "2 Rounds",
       "First Round",
-      "One image template for all.",
+      ["One image template for all.",
       "The teams must design a meme for that image.",
       "Time limit is 60 seconds",
-      "Top 5 teams will proceed to the next round.",
+      "Top 5 teams will proceed to the next round."],
       "Second Round",
       "2 levels",
       "First Level",
-      "3 images will be provided consecutively with 60 seconds for each image.",
+      ["3 images will be provided consecutively with 60 seconds for each image.",
       "The team has to construct the meme for a particular image within the time gap.",
-      "All images won't be provided at the same time, on completion of one, they get the other.",
+      "All images won't be provided at the same time, on completion of one, they get the other."],
       "Second Level",
-      "3 videos will be played one after the other.",
-      "After completion of each video the teams get 90 seconds to frame their memes and then submit and proceed to the next video."
+      ["3 videos will be played one after the other.",
+      "After completion of each video the teams get 90 seconds to frame their memes and then submit and proceed to the next video."]
 
     ],
     coordinators: [

@@ -16,13 +16,14 @@ import {
   Tr,
   Button,
   Center,
+  ListIcon,
 } from "@chakra-ui/react";
 import React from "react";
-import {useEffect} from 'react';
+import { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import tech from "../techEventInfo";
 import nontech from "../nonTechEventInfo";
-
+import blank from "../assets/blank.png";
 
 const EventInfo = () => {
   useEffect(() => {
@@ -30,10 +31,10 @@ const EventInfo = () => {
   }, []);
 
   const params = useParams();
-  let event = {}
-  if(params.id < 10) {
+  let event = {};
+  if (params.id < 10) {
     event = tech.filter((event) => event.id === params.id);
-  }else{
+  } else {
     event = nontech.filter((event) => event.id === params.id);
   }
   return (
@@ -78,11 +79,25 @@ const EventInfo = () => {
             <Heading size={["md", "lg"]} textAlign={"center"} marginBottom={5}>
               Instructions & Guidelines
             </Heading>
-            <UnorderedList px={[0, "10vw"]} py={[0, 7]} marginBottom={5}>
+            <Stack px={[0, "10vw"]} py={[0, 7]} marginBottom={5}>
               {e.rules.map((event) => {
-                return <ListItem>{event}</ListItem>;
+                if ((typeof event) === "string")
+                  return <UnorderedList> <ListItem>{event}</ListItem>; </UnorderedList>
+                else
+                  return (
+                    <UnorderedList styleType={"none"}>
+                    <ListItem>
+                      <UnorderedList styleType={"square"}>
+                        {event.map((x) => (
+                          <ListItem>{x}</ListItem>
+                        ))}
+                      </UnorderedList>
+                    </ListItem>
+                    </UnorderedList>
+                  );
               })}
-            </UnorderedList>
+              </Stack>
+            
             <Heading size={["md", "lg"]} textAlign={"center"} marginBottom={5}>
               Event Coordinators
             </Heading>
@@ -114,11 +129,11 @@ const EventInfo = () => {
               </Table>
             </Stack>
             <Center>
-            <Button colorScheme={"red"} size={"lg"} w={["80%"]}>
-              <Link to={e.link} target="_blank">
-                REGISTER NOW
-              </Link>
-            </Button>
+              <Button colorScheme={"red"} size={"lg"} w={["80%"]}>
+                <Link to={e.link} target="_blank">
+                  REGISTER NOW
+                </Link>
+              </Button>
             </Center>
           </Container>
         );
