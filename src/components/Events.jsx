@@ -38,8 +38,8 @@ const Events = () => {
       </Heading>
       <UnorderedList px={[0, "10vw"]} py={[0, 7]} marginBottom={5}>
         <ListItem>
-          Now get a chance to compete for Miss/Mr Technomania, awarded with cash
-          prize.
+          Now get a chance to compete for Miss/Mr Technomania, awarded with <b>cash
+          prize.</b>
         </ListItem>
         <ListItem>
           There will be a point system to deduce the Champions
