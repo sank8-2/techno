@@ -15,9 +15,7 @@ const nontech = [
       "Actions showing letters, vulgarity not allowed",
       "Divided into 2 rounds",
       "First Round",
-      ["WORD BEE",
-      "Each team will get 5 seconds to name a film, and the next team must name the film of the trailing letter of the previous team.",
-      "Example Team 1 says – Tagaru, Team 2 must start with Ra -like Rustam"],
+      ["WORD BEE","Rules of First Round on Spot"],
       "Second Round",
       ["Intake of only 6 teams",
       "Three SubRounds – Easy, Medium, Hard",
@@ -29,7 +27,6 @@ const nontech = [
       { name: "Shashikumar", phno: "9148746436" },
       { name: "Shamanth", phno: "9380014185" },
       { name: "Deeksha", phno: "8904012948" },
-      // { name: "", phno: "9353840435" },
     ],
     timing: "11:00am - 01:00pm",
     date: "02/05/2024",
@@ -56,7 +53,9 @@ const nontech = [
 
     ],
     coordinators: [
+      { name: "Varsha", phno: "8217482429" },
       { name: "Shamanth", phno: "9380014185" },
+      { name: "Shashikumar", phno: "9148746436" },
     ],
     timing: "4:00pm - 5:30pm",
     date: "02/05/2024",
@@ -75,6 +74,7 @@ const nontech = [
     ],
     coordinators: [
       { name: "Shamanth", phno: "9380014185" },
+      { name: "Danish", phno: "7889908992" },
     ],
     timing: "9:00am - 2:00pm",
     date: "03/05/2024",
