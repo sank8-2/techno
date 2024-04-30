@@ -18,7 +18,7 @@ const tech = [
     ],
     coordinators: [
       { name: "Mubarak R M", phno: "8073244968" },
-      { name: "Deepu", phno: "9353959619" },
+      { name: "Dhanushree", phno: "9353959619" },
       { name: "Priyanaka S", phno: "8904171760" },
     ],
     timing: "2:00pm - 3:00pm",
