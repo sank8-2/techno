@@ -63,7 +63,7 @@ const nontech = [
   },
   {
     id: "12",
-    title: "Photography",
+    title: "Photography - Capture the Moment",
     desc: "Unleash your inner shutterbug with our Photography Game! Embark on a visual adventure as you explore stunning landscapes, capture fleeting moments, and unleash your creativity behind the lens.",
     image: photography,
     rules: [
@@ -120,7 +120,7 @@ const nontech = [
   },
   {
     id: "14",
-    title: "Rubik's Cube",
+    title: "Rubik's Magic",
     desc: "Step into the mind-bending world of the Rubik's Cube Game! Solve the timeless puzzle of twisting colors as you race against the clock. It's a test of strategy, skill, and patience. Are you up for the challenge?.",
     image: rubix,
     rules: [
