@@ -10,7 +10,7 @@ const all = [
         title: "Dumb Charades",
         date: "02/05/2024",
         timing: "11:00 AM to 01:00 PM",
-        room: "CS-1"
+        room: "CS-2"
     },
     {
         bold: "false",
@@ -80,7 +80,7 @@ const all = [
         title: "Prize Distribution",
         date: "03/05/2024",
         timing: "03:00 PM onwards",
-        room: "R&D Lab"
+        room: "R&D Hall"
     },
 ];
 
