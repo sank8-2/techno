@@ -1,10 +1,4 @@
-import {
-  Box,
-  Heading,
-  Image,
-  Stack,
-  Text,
-} from "@chakra-ui/react";
+import { Box, Button, Heading, Image, Stack, Text } from "@chakra-ui/react";
 import { Carousel } from "react-responsive-carousel";
 import React from "react";
 import c1 from "../assets/c1.jpg";
@@ -16,13 +10,14 @@ import bg from "../assets/b5.jpg";
 // import vg1 from "../assets/vg1.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 // import { Link } from "react-router-dom";
-import {useEffect} from 'react';
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   useEffect(() => {
-    window.scrollTo(0,0)
-  }, [])
-  
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Stack
@@ -43,6 +38,7 @@ const Home = () => {
           bgColor={"whiteAlpha.300"}
           color={"whiteAlpha.900"}
           p={[5, 10]}
+          textAlign={"center"}
           borderRadius={70}
         >
           <Heading textAlign={"center"} marginTop={[10, 0]}>
@@ -61,6 +57,20 @@ const Home = () => {
             individual in technical prospectives. We heartily invite you all to
             this amazing event.
           </Text>
+          <Button
+            bgColor={"whatsapp.600"}
+            w={["60", "md"]}
+            _hover={{ bgColor: "green" }}
+          >
+            <Link to={"/events"}>Events</Link>
+          </Button><br/><br/>
+          <Button
+            bgColor={"red"}
+            w={["60", "md"]}
+            _hover={{ bgColor: "maroon" }}
+          >
+            <Link to={"/schedule"}>Schedule</Link>
+          </Button>
         </Box>
         <Box
           w={["75vw", "40vw"]}
