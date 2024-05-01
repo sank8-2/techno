@@ -36,7 +36,7 @@ const tech = [
       "The code will be in C language only.",
       "A total of 6 questions will be given",
       "The individual who solves the maximum code will be the winner",
-      "In any case if there is tie, then Tie breaker round will be conducted"
+      "In any case if there is tie, then Tie breaker round will be conducted",
     ],
     coordinators: [
       { name: "Chandana M K", phno: "9108624992" },
@@ -77,6 +77,10 @@ const tech = [
       "This is an Individual Event.",
       "2 problem based questions will be given",
       "Can code in Java/C/C++.",
+      "No need to carry own laptops",
+      "Both laptop and internet connection will be provided.",
+
+      "All the registered users must remember their Sign-in details; username and password for competing in this event. ",
       "Usage of other languages will be strictly prohibited and may lead to disqualification.",
       "Ranking will be done automatically through the platform",
     ],

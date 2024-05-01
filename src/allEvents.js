@@ -73,7 +73,7 @@ const all = [
         title: "Problem Solving",
         date: "03/05/2024",
         timing: "01:30 PM to 03:00 PM",
-        room: "Lab"
+        room: "IoT Lab"
     },
     {
         bold: "true",
