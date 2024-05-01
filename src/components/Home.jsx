@@ -11,12 +11,20 @@ import bg from "../assets/b5.jpg";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 // import { Link } from "react-router-dom";
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const navigate = useNavigate();
+  const navigateEvents = () => {
+    navigate('/events');
+  };
+  const navigateSchedule = () => {
+    navigate('/schedule');
+  };
 
   return (
     <>
@@ -61,15 +69,17 @@ const Home = () => {
             bgColor={"whatsapp.600"}
             w={["60", "md"]}
             _hover={{ bgColor: "green" }}
-          >
-            <Link to={"/events"}>Events</Link>
+            onClick={navigateEvents}
+          >Events
+            {/* <Link to={"/events"}>Events</Link> */}
           </Button><br/><br/>
           <Button
             bgColor={"red"}
             w={["60", "md"]}
             _hover={{ bgColor: "maroon" }}
-          >
-            <Link to={"/schedule"}>Schedule</Link>
+            onClick={navigateSchedule}
+          >Schedule
+            {/* <Link to={"/schedule"}>Schedule</Link> */}
           </Button>
         </Box>
         <Box
